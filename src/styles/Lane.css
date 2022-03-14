@@ -1,0 +1,48 @@
+.lane {
+  background: #ebecf0;
+  border-radius: 3px;
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.lane-container {
+  background: #ebecf0;
+  border-radius: 3px;
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+.lane-header {
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+
+.lane-name {
+  grid-column: 1 / 4;
+  grid-row: 1;
+  font-size: large;
+  font-weight: bold;
+  word-break: break-word;
+}
+.create-card {
+  grid-column: 2 / 4;
+  grid-row: 1;
+}
+.edit-lane {
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+.delete-lane {
+  grid-column: 4 / 4;
+  grid-row: 1;
+}
