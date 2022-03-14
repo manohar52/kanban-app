@@ -13,3 +13,6 @@
 - open another terminal and go to the main app directory (kanban-app folder)
 - run the command: `npm start`
 - The app will start in [http://localhost:3000/](http://localhost:3000/ "http://localhost:3000/")
+
+# Screenshot
+[![Screenshot](https://github.com/manohar52/kanban-app/blob/master/Screenshot.png "Screenshot")](https://github.com/manohar52/kanban-app/blob/master/Screenshot.png "Screenshot")
